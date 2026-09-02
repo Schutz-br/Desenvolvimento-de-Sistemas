@@ -40,23 +40,23 @@ function real() {
     switch (opcoes) {
         case 1:
             resultado = valor / 5.97;
-            document.getElementById("res").innerHTML = ("O valor convertido é: " + formatarValor(resultado).toFixed(2) + " EUR");
+            document.getElementById("res").innerHTML = ("O valor convertido é: " + formatarValor(resultado) + " EUR");
             break;
         case 2:
             resultado = valor / 5.15;
-            document.getElementById("res").innerHTML = ("O valor convertido é: " + formatarValor(resultado).toFixed(2) + " USD");
+            document.getElementById("res").innerHTML = ("O valor convertido é: " + formatarValor(resultado) + " USD");
             break;
         case 3:
             resultado = valor / 0.0034;
-            document.getElementById("res").innerHTML = ("O valor convertido é: " + formatarValor(resultado).toFixed(2) + " ARS");
+            document.getElementById("res").innerHTML = ("O valor convertido é: " + formatarValor(resultado) + " ARS");
             break;
         case 4:
             resultado = valor / 0.0056;
-            document.getElementById("res").innerHTML = ("O valor convertido é: " + formatarValor(resultado).toFixed(2) + " KZ");
+            document.getElementById("res").innerHTML = ("O valor convertido é: " + formatarValor(resultado) + " KZ");
             break;
         case 5:
             resultado = valor / 0.032;
-            document.getElementById("res").innerHTML = ("O valor convertido é: " + formatarValor(resultado).toFixed(2) + " JPY");
+            document.getElementById("res").innerHTML = ("O valor convertido é: " + formatarValor(resultado) + " JPY");
             break;
         default:
             document.getElementById("res").innerHTML = "Opção inválida!";
